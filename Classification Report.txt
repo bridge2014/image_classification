@@ -16,7 +16,6 @@ Classification Report (Test):
                     macro avg     0.9320    0.9104    0.9207     18030
                  weighted avg     0.9469    0.9473    0.9469     18030
 
-Saved confusion matrix to /vast/home/fwang/image_ai/outputs37/confusion_matrix.png
 
 AUC summary (OvR):
   400p-Acinar tissue: AUC = 0.9999
