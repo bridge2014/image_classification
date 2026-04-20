@@ -32,7 +32,3 @@ AUC summary (OvR):
   micro-average AUC = 0.9983
   macro-average AUC = 0.9965
   sklearn macro AUC = 0.9965 | sklearn weighted AUC = 0.9950
-ROC plots saved to: /vast/home/fwang/image_ai/outputs37/roc_multiclass.png and /vast/home/fwang/image_ai/outputs37/roc_per_class_grid.png
-Saved final model to /vast/home/fwang/image_ai/outputs37/resnet50_final.keras
- --- Save Accuracy Epoch chart ----
-Job completed at Fri Apr 10 08:26:19 PM EDT 2026
