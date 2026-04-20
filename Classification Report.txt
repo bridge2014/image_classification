@@ -1,0 +1,38 @@
+Classification Report (Test):
+                               precision    recall  f1-score   support
+
+           400p-Acinar tissue     0.9882    0.9960    0.9921      1006
+   400p-Dysplastic epithelium     0.8742    0.7858    0.8276       663
+                400p-Fibrosis     0.9049    0.8653    0.8846      1759
+        400p-Lymph Aggregates     0.9866    0.9485    0.9672       233
+                400p-Necrosis     0.9645    0.9157    0.9395       534
+                  400p-Nerves     0.9730    0.9391    0.9558       230
+400p-Normal ductal epithelium     0.7887    0.7766    0.7826       197
+                400p-Reactive     0.9601    0.9413    0.9506      1942
+                  400p-Stroma     0.9240    0.9637    0.9434      1488
+                   400p-Tumor     0.9565    0.9715    0.9640      9978
+
+                     accuracy                         0.9473     18030
+                    macro avg     0.9320    0.9104    0.9207     18030
+                 weighted avg     0.9469    0.9473    0.9469     18030
+
+Saved confusion matrix to /vast/home/fwang/image_ai/outputs37/confusion_matrix.png
+
+AUC summary (OvR):
+  400p-Acinar tissue: AUC = 0.9999
+  400p-Dysplastic epithelium: AUC = 0.9916
+  400p-Fibrosis: AUC = 0.9946
+  400p-Lymph Aggregates: AUC = 0.9987
+  400p-Necrosis: AUC = 0.9989
+  400p-Nerves: AUC = 0.9990
+  400p-Normal ductal epithelium: AUC = 0.9926
+  400p-Reactive: AUC = 0.9979
+  400p-Stroma: AUC = 0.9987
+  400p-Tumor: AUC = 0.9933
+  micro-average AUC = 0.9983
+  macro-average AUC = 0.9965
+  sklearn macro AUC = 0.9965 | sklearn weighted AUC = 0.9950
+ROC plots saved to: /vast/home/fwang/image_ai/outputs37/roc_multiclass.png and /vast/home/fwang/image_ai/outputs37/roc_per_class_grid.png
+Saved final model to /vast/home/fwang/image_ai/outputs37/resnet50_final.keras
+ --- Save Accuracy Epoch chart ----
+Job completed at Fri Apr 10 08:26:19 PM EDT 2026
