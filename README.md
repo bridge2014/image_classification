@@ -17,6 +17,7 @@ The prediction accuracy for training data is over 97% and it close to 95% for va
 The prediction accuracy for test data is around 95%.
 
 There are 2 way to wrap image with tensorflow keras module
+
 Method 1: 
 
 import tensorflow as tf
