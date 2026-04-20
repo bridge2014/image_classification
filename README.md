@@ -11,7 +11,7 @@ Using 10815 files for validation.
 Total 18030 files belonging to 10 classes in test folder.
 
 All computation was done in Stony Brook University high performance linux cluster. 
-Thw init.sh was executed first to create virtural environment, then create job.slurm file
+The init.sh was executed first to create virtural environment, then create job.slurm file
 to use GPU . All results are captured in png files and classification report. 
 The prediction accuracy for training data is over 97% and it close to 95% for validation dataset.
 The prediction accuracy for test data is around 95%.
