@@ -67,6 +67,6 @@ val_gen = datagen.flow_from_directory(
 )
 
 
-As I used both methods, Method 2 with much high prediction accuracy.
+As I used both methods, Method 1 with much high prediction accuracy.
 
 
