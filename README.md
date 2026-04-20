@@ -65,6 +65,8 @@ val_gen = datagen.flow_from_directory(
     subset="validation",
     seed=123
 )
+
+
 As I used both methods, Method 2 with much high prediction accuracy.
 
 
